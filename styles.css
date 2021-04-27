@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -15,8 +17,9 @@ body{
 .container{
     display: flex;
     align-items: center;
-    margin: 20px auto;
-    padding: 5px 0;
+    max-width: 100%;
+    margin: 15px 0;
+    padding: 5px 5px;
 }
 
 
@@ -27,11 +30,12 @@ body{
 
 .container .logo a{
     text-decoration: none;
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 25px;
     line-height: 24px;
     color: #0d0c22;
-    font-style: italic;
+    font-family: Montez;
 }
 
 .container .logo a:hover{
@@ -58,6 +62,7 @@ body{
     color: #7f7e89;
     font-size: 15px;
     line-height: 20px;
+    font-weight: 500;
 }
 
 .container .nav li a:hover{
@@ -71,7 +76,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 500px;
+    margin-left: 470px;
 }
 
 .container .sign-in li {
@@ -96,7 +101,7 @@ body{
 
 .sign-in .btn-2 a{
     border-radius: 10px;
-    padding: 8px 10px;
+    padding: 8px 12px;
     background-color: #ea4c89;
 }
 
@@ -107,3 +112,79 @@ body{
     line-height: 24px;
 }
 
+.container .sign-in .btn-2 a:hover{
+    background-color: #f082ac;
+}
+
+
+
+/* Section styling */
+
+section{
+    background-color: #f9f8fd;
+    padding: 20px 50px;
+}
+
+.container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-a {
+    margin: 50px 20px;
+    padding-top: 30px;
+    max-width: 45%;
+}
+
+.container-a h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 56px;
+    font-style: normal;
+}
+
+.container-a p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 0;
+}
+
+.container-a .btn-3{
+    padding: 15px 0;
+}
+
+.container-a .btn-3 a{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 12px;
+    background-color: #ea4c89;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.container-a .btn-3 a:hover{
+    background-color: #f082ac;
+}
+
+.container-b {
+    margin-right: 20px;
+}
+
+.container-b img{
+    margin: 30px 5px;
+    width: 500px;
+}
+
+.container-b p{
+    position: absolute;
+    top: 520;
+    right: 70;
+    color: #7f7e89;
+}
+
+.container-b p a{
+    color: #7f7e89;
+}
